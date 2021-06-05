@@ -21,9 +21,9 @@ const [currentCategory, setCurrentCategory] = useState(categories[0]);
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}>
-          contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}>
       </Nav>
       <main>
         {!contactSelected ? (
